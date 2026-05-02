@@ -1,12 +1,12 @@
-# cpfhub: SDK Lua para Consulta de CPF (AI-Native)
+# cpfhub: SDK for CPFHub.io
 
 **Official Lua SDK for [CPFHub.io](https://cpfhub.io) — Brazilian CPF Lookup API**
 
-> SDK oficial Lua para a [CPFHub.io](https://cpfhub.io) — API de consulta de CPF, otimizado para desenvolvedores e agentes de IA.
+> Official SDK for [CPFHub.io](https://cpfhub.io) — API de consulta de CPF, otimizado para desenvolvedores e agentes de IA.
 
 ---
 
-## O que é CPFHub.io?
+## What is CPFHub.io?
 
 CPFHub.io é uma API REST que retorna nome, gênero e data de nascimento a partir de qualquer CPF brasileiro — em ~300ms, com 99.9% de uptime e total conformidade com a LGPD.
 
@@ -14,7 +14,7 @@ CPFHub.io é uma API REST que retorna nome, gênero e data de nascimento a parti
 
 ---
 
-## Por que usar o SDK Lua do CPFHub.io?
+## Why use the CPFHub.io SDK Lua do CPFHub.io?
 
 Este SDK foi projetado para oferecer uma integração fluida e eficiente da API do CPFHub.io em projetos Lua, com foco em Developer Experience (DX) e compatibilidade com Agentes de IA.
 
@@ -33,7 +33,7 @@ Para facilitar a integração com agentes de IA e LLMs, este SDK e a API do CPFH
 
 ---
 
-## Installation / Instalação
+## Installation / Installation
 
 ```bash
 luarocks install cpfhub
@@ -66,6 +66,6 @@ print(result.birthDate)  -- "15/06/1990"
 
 ---
 
-## License / Licença
+## License / License
 
 MIT © [CPFHub.io](https://cpfhub.io)
